@@ -1,6 +1,8 @@
 {
   "expo": {
     "name": "sticker_smash",
+    "entryPoint": "App.js",
+    "bundleUrl": "http://localhost:8081/index.bundle",
     "slug": "sticker_smash",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,9 +13,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
